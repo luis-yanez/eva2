@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Declara el tipo de documento y establece el idioma de la página en español -->
+
+<!--ACA COMIENZA MI CSS-->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- codificación de caracteres a UTF-8 para el HTML -->
+    <title>Landing page</title>
+    <!-- título de la página que se muestra en la pestaña del navegador -->
+    <style>
+        /* Estilo, color, tamaño y reglas de CSS */
+        body {
+            background-image: url('https://i.blogs.es/e239cb/crear-wallpapers-portada/1366_2000.webp');
+            /* imagen de fondo de la página usando una URL externa */
+            background-size: cover;
+            /* Ajusta la imagen al tamaño de la pantalla */
+            background-position: center;
+            /* Centra la imagen */
+            color: rgb(99, 8, 237);
+            /* Establece el color del texto en blanco */
+            height: 100vh;
+            /* Establece la altura del cuerpo a la altura de la ventana */
+            margin: 0;
+            /* Elimina los márgenes por defecto */
+            text-align: center;
+            /* Alinea el texto al centro */
+        }
+
+        /* Estilo para el menú */
+        #fondo-menu {
+            display: flex;
+            /* Usa el modelo de diseño Flexbox */
+            justify-content: center;
+            /* Centra los elementos dentro del contenedor */
+            background-color: rgb(156, 244, 5);
+            /* Establece el color de fondo negro para el menú */
+            padding: 20px;
+            /* Establece un padding (relleno interno) de 10px */
+            margin: 0;
+            /* Elimina el margen por defecto */
+        }
+
+        /* Estilo para el contenedor */
+        .contenedor {
+            display: flex;
+            flex-direction: column;
+            /* Establece que los elementos del contenedor se dispongan verticalmente */
+            justify-content: center;
+            /* Centra verticalmente los elementos dentro del contenedor */
+            align-items: center;
+            /* Centra horizontalmente los elementos dentro del contenedor */
+            height: 75vh;
+            /* Establece la altura del contenedor */
+        }
+
+        /* Estilo para el botón */
+        .push {
+            background-color: brown;
+            /* Establece el color de fondo marrón para el botón */
+            color: white;
+            /* Establece el color del texto en blanco */
+            padding: 20px 30px;
+            /* Establece el relleno interno del botón */
+            border-radius: 30px;
+            /* Redondea las esquinas del botón */
+            cursor: pointer;
+            /* Cambia el cursor a forma de mano cuando se pasa sobre el botón */
+            text-decoration: none;
+            /* Elimina la decoración de texto (subrayado) en el botón */
+        }
+    </style>
+
+
+
+
+</head>
+<!--ACA COMIENZA MI HTML-->
+
+<body>
+    <!-- Menú superior -->
+    <div id="fondo-menu">
+        <h1> Bienvenido a mi LANDING PAGE<h1>
+                <!-- Crea un enlace de prueba con la clase "letra-menu" y el texto "Home" -->
+    </div>
+
+    <!-- Contenedor de la página -->
+    <div class="contenedor">
+        <div class="row border">
+            <div class="col-sm-10 col-md-2 border">
+                <h1 style="color: white"> HTML Y CSS</h1>
+                <!-- Título "PRESIONE EL BOTÓN" con letras de color blanco -->
+                <div style="text-align: center;">
+                    <h2 style="color: white;">Luis Yáñez</h2>
+                    <!-- Título "Luis Yáñez" con color blanco y centrado -->
+                </div>
+            </div>
+        </div>
+
+        <a
+            href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhI5PkNxqzaKvX1FjH29L8qUmC-_KlnQvhdm_Peg62y2v4Z7jI805Px62qTFFmIFUqTZl2oAvRIZlGNN1kxT8wKba73wLE7LkUKQQN9z4aK-NJemY5VL5aWJmuiX1Uu6QIescjrhY6NASug/s1600/Gifs+Animados+Profesores+3.gif">
+            <button class="push">PUSH</button>
+
+            <!-- Botón con clase "menu" y el texto "PUSH", que al hacer clic muestra una alerta -->
+        </a>
+    </div>
+
+
+</body>
+
+</html>
+<!-- Finaliza el documento HTML -->
